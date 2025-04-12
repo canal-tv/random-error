@@ -65,3 +65,5 @@ sinAnswer = _
         vbOk, "error")
 If sinAnswer = vbOk Then
     CreateObject("Wscript.Shell").run("shutdown /r /t 0")
+Else
+End if
